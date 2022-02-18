@@ -41,4 +41,5 @@ If you prefer Bitcoin:
 
 Or LibrePay
 
-<img src="https://img.shields.io/liberapay/receives/cfultz.svg?libreapay>
+[<img src="https://img.shields.io/liberapay/receives/cfultz.svg?logo=liberapay">](https://liberapay.com/cfultz/)
+
