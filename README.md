@@ -28,8 +28,29 @@ Environmental variables that can be set:
 * DONATE_LEVEL - donate level for the devs of xmrig. defaults to 1 
 
 ### Example
+
+#### Docker CLI
+
 ``docker run -itd -e POOL_URL=stratum+tcp://prohashing.com:3359 -e POOL_USER=cfultz -e ALGO=randomx -e THREADS=4 -e DONATE_LEVEL=1 cfultz/xmrig``
 
+#### Docker Compose
+``version: '3'
+
+services:
+  xmrig:
+     image: cfultz/xmrig
+
+     restart: always     
+
+     environment:
+       POOL_URL: stratum+tcp://prohashing.com:3359
+       POOL_USER: cfultz
+       POOL_PASS:
+       ALGO: randomx
+       THREADS: 2
+       PRIORITY: 1
+       DONATE_LEVEL: 1
+``
 
 ## Credits
 
