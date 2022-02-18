@@ -20,7 +20,7 @@ Environmental variables that can be set:
 * POOL_USER - sets username for pool
 * POOL_PASS - sets password for user 
 * ALGO - sets algorithm xmrig will use for pool
-* THREAD - number of dedicated threads
+* THREADS - number of dedicated threads
 * PRIORITY - priority level
 * DONATE_LEVEL - donate level for the devs of xmrig. defaults to 1 
 
