@@ -6,11 +6,21 @@
 
 The past "official" xmrig docker containers were built around 4 years ago at the time of this development. This is simply a container that compiled the latest xmrig from [GitHub](https://github.com/xmrig/xmrig). This does **NOT** use a proxy by default, you will need to setup your own if you wish to do that.
 
+## Tags
+* latest - follow this README
+* api - enables port 3300 for xmrig API. token is ``xmrig``
+
 ## Quick start
 
 If you don't set environmental variables, you will be mining for me (thanks!) as a donation. Please confirm your settings before deploying and walking away.
 
+##### Latest:
+
 ``docker run -itd cfultz/xmrig``
+
+##### API Tag:
+
+``docker run -itd -p 3300:3300 cfultz/xmrig:api``
 
 #### NOTE:
 This container is **NOT** running as priviledge to keep the host OS safe(r). This means the msr module will not load causing hashrates to possibily be lower.
