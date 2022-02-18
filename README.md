@@ -34,7 +34,8 @@ Environmental variables that can be set:
 ``docker run -itd -e POOL_URL=stratum+tcp://prohashing.com:3359 -e POOL_USER=cfultz -e ALGO=randomx -e THREADS=4 -e DONATE_LEVEL=1 cfultz/xmrig``
 
 #### Docker Compose
-```version: '3'
+```
+version: '3'
 
 services:
   xmrig:
