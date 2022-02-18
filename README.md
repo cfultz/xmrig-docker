@@ -12,6 +12,9 @@ If you don't set environmental variables, you will be mining for me (thanks!) as
 
 ``docker run -itd cfultz/xmrig``
 
+#### NOTE:
+This container is **NOT** running as priviledge to keep the host OS safe(r).
+
 ## Environmental Variables
 
 Environmental variables that can be set:
