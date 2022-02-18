@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  xmrig:
+     image: cfultz/xmrig
+
+     restart: always     
+
+     environment:
+       POOL_URL: stratum+tcp://prohashing.com:3359
+       POOL_USER: cfultz
+       POOL_PASS:
+       ALGO: randomx
+       THREADS: 2
+       PRIORITY: 1
+       DONATE_LEVEL: 1
