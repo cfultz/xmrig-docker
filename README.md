@@ -1,3 +1,7 @@
+[![GitHub license](https://img.shields.io/github/license/cfultz/xmrig-docker.svg)](https://github.com/cfultz/xmrig-docker/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/cfultz/xmrig-docker.svg)](https://github.com/cfultz/xmrig-docker/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/cfultz/xmrig-docker.svg)](https://github.com/cfultz/xmrig-docker/network)
+
 # xmrig on Docker
 
 The past "official" xmrig docker containers were built around 4 years ago at the time of this development. This is simply a container that compiled the latest xmrig from [GitHub](https://github.com/xmrig/xmrig). This does **NOT** use a proxy by default, you will need to setup your own if you wish to do that.
