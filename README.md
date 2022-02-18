@@ -13,7 +13,7 @@ If you don't set environmental variables, you will be mining for me (thanks!) as
 ``docker run -itd cfultz/xmrig``
 
 #### NOTE:
-This container is **NOT** running as priviledge to keep the host OS safe(r).
+This container is **NOT** running as priviledge to keep the host OS safe(r). This means the msr module will not load causing hashrates to possibily be lower.
 
 ## Environmental Variables
 
